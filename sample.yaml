@@ -13,3 +13,22 @@
 
     There may be empty lines, but make sure the multi line string is properly formatted.
     See https://yaml-multiline.info for syntax info.
+
+- cves:
+    - CVE-2024-10977
+  dists:
+    - today
+  is_resolved: true
+  description: |
+    This CVE only affects the postgresql server component which is not part of Garden Linux.
+
+    This is a multi line string, it may use *Markdown*.
+
+    There may be empty lines, but make sure the multi line string is properly formatted.
+    See https://yaml-multiline.info for syntax info.
+
+- cves:
+    - CVE-2024-10978
+    - CVE-2024-53051
+  dists:
+    - today
